@@ -1,0 +1,11 @@
+/// Example function test
+///
+// A later dependant could use this to test for **sin** as a requirement.
+///
+/// @example
+/// // Add to your test build file `test/stylesheets.scss`
+/// @import './node_modules/@elioway/sin/test/functions/i_am';
+@import '../../stylesheets/functions/i_am';
+@include test('i am sin') {
+  @include assert-equal(i_am(), 'sin');
+}

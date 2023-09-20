@@ -1,0 +1,18 @@
+/// Example mixin test
+///
+// A later dependant could use this to test for **sin** as a requirement.
+///
+/// @example
+/// // Add to your test build file `test/stylesheets.scss`
+/// @import './node_modules/@elioway/sin/test/mixins/i_am';
+@import '../../stylesheets/mixins/i_am';
+@include test('@mixin test example') {
+  @include assert('i am sin') {
+    @include output {
+      @include i_am();
+    }
+    @include expect {
+      content: 'i am sin';
+    }
+  }
+}

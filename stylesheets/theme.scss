@@ -1,0 +1,35 @@
+/// sin theme
+/// ============================================================================
+/// This is your theme file. Other eliosinners can use this theme by importing
+/// it into their `judge.scss` file. They provide their own settings.
+///
+/// @example
+///
+/// @import '@elioway/sin/stylesheets/theme';
+/// ============================================================================
+// import your eliosin functions and mixins here.
+#{$container} {
+  // import your eliosin styles here
+  @import 'pillar';
+  @import 'heaven';
+  @import 'hell';
+  @import 'h1/pillar';
+  @import 'h2/pillar';
+  @import 'h3/pillar';
+  @import 'h4/pillar';
+  @import 'h5/pillar';
+  @import 'h6/pillar';
+  @import 'table/pillar';
+  @import 'form/pillar';
+  @import 'figure/pillar';
+  @import 'ul/pillar';
+  @import 'ol/pillar';
+  @import 'dl/pillar';
+  @import 'p/pillar';
+  
+  @import 'blockquote/heaven';
+  
+  @import 'nav/hell';
+  @import 'aside/hell';
+  
+}

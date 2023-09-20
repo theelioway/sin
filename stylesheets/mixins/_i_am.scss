@@ -1,0 +1,19 @@
+/// Example mixin
+/// 
+/// A later dependant could use this to test for **sin** as a requirement.
+///
+/// @example
+/// @import './node_modules/@elioway/sin/stylesheets/mixins/i_am';
+/// @include test('@mixin example()') {
+///   @include assert('i am sin') {
+///     @include output {
+///       @include i_am();
+///     }
+///     @include expect {
+///       content: 'i am sin';
+///     }
+///   }
+/// }
+@mixin i_am() {
+  content: 'i am sin';
+}

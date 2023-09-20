@@ -1,0 +1,12 @@
+// Example function
+//
+// A later dependant could use this to test for **sin** as a requirement.
+///
+/// @example
+/// @import './node_modules/@elioway/sin/stylesheets/functions/i_am';
+/// @include test('i am sin') {
+///   @include assert-equal(i_am(), 'sin');
+/// }
+@function i_am() {
+  @return 'sin';
+}

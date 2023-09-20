@@ -1,0 +1,35 @@
+// LAYOUT ==================
+$god-space: 1%; // the horizontal padding in all the prongs.
+$heaven-width: 33%; // prong width right (as a percentage to help scaling).
+$hell-width: 33%; // prong width left (as a percentage to help scaling).
+$personal-space: 12px; // the vertical padding between believers.
+$transition: 0.5s;
+// MEDIA BREAKS ==================
+$god-loose: 1200px; // loose - prongs divided - no overlap.
+$god-cosy: 900px; // cosy - overlap between sinners and the pillar.
+$god-tight: 600px; // tight - believers full width - piller width small margin.
+$heaven-cosy: 5%; // cosy - allow the heaven width to grow by this amount.
+$hell-cosy: 5%; // cosy - allow the hell width to grow by this amount.
+$pillar-cosy: 20%; // cosy - allow the pillar width to grow by this amount.
+// COLORS ==================
+$heaven-color: lightblue; // dark color: mainly for bg with $pillar-color text.
+$pillar-color: darkblue; // dark color: mainly for heading text on white bg.
+$hell-color: tan; // dark color: mainly for bg with $pillar-color text.
+$god-color: $pillar-color; // $god-color: the primary color
+$god-blushed: lighten($god-color, 15); // $god-color: the primary tint color
+// TEXT ==================
+$god-h1: 400%; // font size of h1.
+$god-h6: 80%; // font size of h6.
+$god-p: 100%;  // font size of paragraph text.
+$god-spoke: $god-p * 1.5; // standout with big text.
+$god-head: sans-serif; // for heading level text.
+$god-body: serif; // for body level text.
+// BASICS ==================
+$god-border: 1px $god-blushed solid; // general purpose border
+$inline-padding: 3px;
+$toothpaste-color: 'none';
+// BELIEVERS ==================
+$container: (body, main); // sin classes only affect direct children of these
+$pillar: (h1,h2,h3,h4,h5,h6,table,form,figure,ul,ol,dl,p,); // pillar - all tags are stictly contained the same way - no believers here.
+$heaven: (blockquote,); // hangs right - gets the best views.
+$hell: (nav,aside,); // hangs left.

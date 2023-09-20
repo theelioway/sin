@@ -1,0 +1,12 @@
+@import 'true'; // Test runner: Import your tests here. We've already done one for you.
+@include test-module('sin') {
+  // Test files mirror structure of stylesheets folder.
+  @import './node_modules/@elioway/god/test/functions/thereisagod'; // test for requirement **god**
+  @import './node_modules/@elioway/eve/test/functions/godcreatedeve'; // test for requirement **eve**
+  @import './node_modules/@elioway/adon/test/functions/godcreatedadon'; // test for requirement **adon**
+  @import './node_modules/@elioway/innocent/test/functions/innocent'; // test for requirement **innocent**
+  // Test for itself that other test suites could call for **sin** as a requirement
+  @import 'functions/i_am';
+  // Test for itself that other test suites could call for **sin** as a requirement
+  @import 'mixins/i_am';
+}
