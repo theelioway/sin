@@ -1,4 +1,5 @@
 .cache
+.editorconfig
 .env
 .env.fish
 .private
