@@ -7,4 +7,4 @@
 
 ## Artwork
 
-- [art](https://commons.wikimedia.org/)
+- [art](https://publicdomainvectors.org/en/free-clipart/Black-angel/56334.html)
