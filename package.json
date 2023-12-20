@@ -5,7 +5,9 @@
   "identifier": "sin",
   "mainEntityOfPage": "SoftwareSourceCode",
   "name": "@elioway/sin",
-  "subjectOf": "eliosin",
+  "sameAs": "https://Sin.theElioWay.com/",
+  "subjectOf": "Way",
+  "url": "https://sin.Sin.theElioWay.com",
   "SoftwareSourceCode": {
     "codeSampleType": "experimental",
     "targetProduct": "eliosin"
