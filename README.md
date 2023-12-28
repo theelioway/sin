@@ -1,4 +1,4 @@
-![](https://elioway.gitlab.io/eliosin/sin/elio-sin-logo.png)
+![](./postcard.jpg)
 
 > Sin, **the elioWay**
 
